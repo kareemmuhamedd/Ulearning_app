@@ -40,7 +40,7 @@ class _WelcomeState extends State<Welcome> {
                         'Next',
                         'First See Learning',
                         'forget about a for of paper all knowledge in one learning!',
-                        'image one',
+                        'assets/images/reading.png',
                       ),
                       _page(
                         2,
@@ -48,7 +48,7 @@ class _WelcomeState extends State<Welcome> {
                         'Next',
                         'Connect With Everyone',
                         'Always keep in touch with your tutor & friend let\'s get connected!',
-                        'image two',
+                        'assets/images/boy.png',
                       ),
                       _page(
                         3,
@@ -56,7 +56,7 @@ class _WelcomeState extends State<Welcome> {
                         'Get started',
                         'Always Fascinated Learning',
                         'Anywhere, anytime. The time is at your discretion so study whenever you want.',
-                        'image three',
+                        'assets/images/man.png',
                       ),
                     ],
                   ),
@@ -98,9 +98,7 @@ class _WelcomeState extends State<Welcome> {
         SizedBox(
           width: 300.w,
           height: 300.h,
-          child: Text(
-            imagePath,
-          ),
+          child: Image.asset(imagePath),
         ),
         Container(
           child: Text(
